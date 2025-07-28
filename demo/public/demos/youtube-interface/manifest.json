@@ -1,0 +1,542 @@
+[
+  {
+    "file": "0001.html",
+    "caption": "Elements: 1/108",
+    "diff": ""
+  },
+  {
+    "file": "0002.html",
+    "caption": "Elements: 2/108",
+    "diff": "--- \n+++ \n@@ -24,7 +24,7 @@\n <div class=\"box\" id=\"1\" style=\"left:0.5%;top:0%;width:2.6722%;height:99.7661%;\">\n <div class=\"sidebar-container\">\n <!-- 汉堡菜单 -->\n-<div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M4 6h16M4 12h16M4 18h16\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0003.html",
+    "caption": "Elements: 3/108",
+    "diff": "--- \n+++ \n@@ -25,7 +25,7 @@\n <div class=\"sidebar-container\">\n <!-- 汉堡菜单 -->\n <div class=\"sidebar-item\">\n-<svg class=\"sidebar-icon\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"sidebar-icon\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n <path d=\"M4 6h16M4 12h16M4 18h16\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n </div>"
+  },
+  {
+    "file": "0004.html",
+    "caption": "Elements: 4/108",
+    "diff": "--- \n+++ \n@@ -26,7 +26,7 @@\n <!-- 汉堡菜单 -->\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n-<path d=\"M4 6h16M4 12h16M4 18h16\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M4 6h16M4 12h16M4 18h16\"></path>\n </svg>\n </div>\n <!-- 首页 -->"
+  },
+  {
+    "file": "0005.html",
+    "caption": "Elements: 5/108",
+    "diff": "--- \n+++ \n@@ -30,7 +30,7 @@\n </svg>\n </div>\n <!-- 首页 -->\n-<div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0006.html",
+    "caption": "Elements: 6/108",
+    "diff": "--- \n+++ \n@@ -31,7 +31,7 @@\n </div>\n <!-- 首页 -->\n <div class=\"sidebar-item\">\n-<svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">首页</span>"
+  },
+  {
+    "file": "0007.html",
+    "caption": "Elements: 7/108",
+    "diff": "--- \n+++ \n@@ -32,7 +32,7 @@\n <!-- 首页 -->\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<path d=\"M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z\"></path>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">首页</span>\n </div>"
+  },
+  {
+    "file": "0008.html",
+    "caption": "Elements: 8/108",
+    "diff": "--- \n+++ \n@@ -34,7 +34,7 @@\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z\"></path>\n </svg>\n-<span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">首页</span>\n+<span class=\"sidebar-text\">首页</span>\n </div>\n <!-- Shorts -->\n <div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0009.html",
+    "caption": "Elements: 9/108",
+    "diff": "--- \n+++ \n@@ -37,7 +37,7 @@\n <span class=\"sidebar-text\">首页</span>\n </div>\n <!-- Shorts -->\n-<div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"sidebar-item\">\n <!-- 官方 Shorts 轮廓（红色 S 形 + 播放三角） -->\n <svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0010.html",
+    "caption": "Elements: 10/108",
+    "diff": "--- \n+++ \n@@ -39,7 +39,7 @@\n <!-- Shorts -->\n <div class=\"sidebar-item\">\n <!-- 官方 Shorts 轮廓（红色 S 形 + 播放三角） -->\n-<svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <polygon fill=\"#fff\" points=\"9 8 9 16 15 12\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>"
+  },
+  {
+    "file": "0011.html",
+    "caption": "Elements: 11/108",
+    "diff": "--- \n+++ \n@@ -40,7 +40,7 @@\n <div class=\"sidebar-item\">\n <!-- 官方 Shorts 轮廓（红色 S 形 + 播放三角） -->\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\"></path>\n <polygon fill=\"#fff\" points=\"9 8 9 16 15 12\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">Shorts</span>"
+  },
+  {
+    "file": "0012.html",
+    "caption": "Elements: 12/108",
+    "diff": "--- \n+++ \n@@ -41,7 +41,7 @@\n <!-- 官方 Shorts 轮廓（红色 S 形 + 播放三角） -->\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\"></path>\n-<polygon fill=\"#fff\" points=\"9 8 9 16 15 12\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n+<polygon fill=\"#fff\" points=\"9 8 9 16 15 12\"></polygon>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">Shorts</span>\n </div>"
+  },
+  {
+    "file": "0013.html",
+    "caption": "Elements: 13/108",
+    "diff": "--- \n+++ \n@@ -43,7 +43,7 @@\n <path d=\"M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z\"></path>\n <polygon fill=\"#fff\" points=\"9 8 9 16 15 12\"></polygon>\n </svg>\n-<span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">Shorts</span>\n+<span class=\"sidebar-text\">Shorts</span>\n </div>\n <!-- 订阅 -->\n <div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0014.html",
+    "caption": "Elements: 14/108",
+    "diff": "--- \n+++ \n@@ -46,7 +46,7 @@\n <span class=\"sidebar-text\">Shorts</span>\n </div>\n <!-- 订阅 -->\n-<div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <rect height=\"12\" rx=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"20\" x=\"2\" y=\"6\"></rect>\n <polygon fill=\"#fff\" points=\"10 9 16 12 10 15\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>"
+  },
+  {
+    "file": "0015.html",
+    "caption": "Elements: 15/108",
+    "diff": "--- \n+++ \n@@ -47,7 +47,7 @@\n </div>\n <!-- 订阅 -->\n <div class=\"sidebar-item\">\n-<svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <rect height=\"12\" rx=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"20\" x=\"2\" y=\"6\"></rect>\n <polygon fill=\"#fff\" points=\"10 9 16 12 10 15\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>"
+  },
+  {
+    "file": "0016.html",
+    "caption": "Elements: 16/108",
+    "diff": "--- \n+++ \n@@ -48,7 +48,7 @@\n <!-- 订阅 -->\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<rect height=\"12\" rx=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"20\" x=\"2\" y=\"6\"></rect>\n+<rect height=\"12\" rx=\"2\" width=\"20\" x=\"2\" y=\"6\"></rect>\n <polygon fill=\"#fff\" points=\"10 9 16 12 10 15\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">订阅</span>"
+  },
+  {
+    "file": "0017.html",
+    "caption": "Elements: 17/108",
+    "diff": "--- \n+++ \n@@ -49,7 +49,7 @@\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <rect height=\"12\" rx=\"2\" width=\"20\" x=\"2\" y=\"6\"></rect>\n-<polygon fill=\"#fff\" points=\"10 9 16 12 10 15\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n+<polygon fill=\"#fff\" points=\"10 9 16 12 10 15\"></polygon>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">订阅</span>\n </div>"
+  },
+  {
+    "file": "0018.html",
+    "caption": "Elements: 18/108",
+    "diff": "--- \n+++ \n@@ -51,7 +51,7 @@\n <rect height=\"12\" rx=\"2\" width=\"20\" x=\"2\" y=\"6\"></rect>\n <polygon fill=\"#fff\" points=\"10 9 16 12 10 15\"></polygon>\n </svg>\n-<span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">订阅</span>\n+<span class=\"sidebar-text\">订阅</span>\n </div>\n <!-- 我 -->\n <div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0019.html",
+    "caption": "Elements: 19/108",
+    "diff": "--- \n+++ \n@@ -54,7 +54,7 @@\n <span class=\"sidebar-text\">订阅</span>\n </div>\n <!-- 我 -->\n-<div class=\"sidebar-item\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <circle cx=\"12\" cy=\"8\" r=\"4\" style=\"opacity:0;transition:opacity .35s ease-out;\"></circle>\n <path d=\"M4 20a8 8 0 0116 0H4z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0020.html",
+    "caption": "Elements: 20/108",
+    "diff": "--- \n+++ \n@@ -55,7 +55,7 @@\n </div>\n <!-- 我 -->\n <div class=\"sidebar-item\">\n-<svg class=\"sidebar-icon\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <circle cx=\"12\" cy=\"8\" r=\"4\" style=\"opacity:0;transition:opacity .35s ease-out;\"></circle>\n <path d=\"M4 20a8 8 0 0116 0H4z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0021.html",
+    "caption": "Elements: 21/108",
+    "diff": "--- \n+++ \n@@ -56,7 +56,7 @@\n <!-- 我 -->\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<circle cx=\"12\" cy=\"8\" r=\"4\" style=\"opacity:0;transition:opacity .35s ease-out;\"></circle>\n+<circle cx=\"12\" cy=\"8\" r=\"4\"></circle>\n <path d=\"M4 20a8 8 0 0116 0H4z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">我</span>"
+  },
+  {
+    "file": "0022.html",
+    "caption": "Elements: 22/108",
+    "diff": "--- \n+++ \n@@ -57,7 +57,7 @@\n <div class=\"sidebar-item\">\n <svg class=\"sidebar-icon\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <circle cx=\"12\" cy=\"8\" r=\"4\"></circle>\n-<path d=\"M4 20a8 8 0 0116 0H4z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M4 20a8 8 0 0116 0H4z\"></path>\n </svg>\n <span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">我</span>\n </div>"
+  },
+  {
+    "file": "0023.html",
+    "caption": "Elements: 23/108",
+    "diff": "--- \n+++ \n@@ -59,7 +59,7 @@\n <circle cx=\"12\" cy=\"8\" r=\"4\"></circle>\n <path d=\"M4 20a8 8 0 0116 0H4z\"></path>\n </svg>\n-<span class=\"sidebar-text\" style=\"opacity:0;transition:opacity .35s ease-out;\">我</span>\n+<span class=\"sidebar-text\">我</span>\n </div>\n </div>\n </div>"
+  },
+  {
+    "file": "0024.html",
+    "caption": "Elements: 24/108",
+    "diff": "--- \n+++ \n@@ -65,7 +65,7 @@\n </div>\n <!-- ───────────── 顶部导航 ───────────── -->\n <div class=\"box\" id=\"2\" style=\"left:2.7909738717%;top:0%;width:97.0902612827%;height:6.1403508772%;\">\n-<div class=\"flex items-center\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex items-center\">\n <!-- Logo -->\n <div class=\"flex items-center ml-4 space-x-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <svg class=\"w-8 h-6\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 90 60\">"
+  },
+  {
+    "file": "0025.html",
+    "caption": "Elements: 25/108",
+    "diff": "--- \n+++ \n@@ -67,7 +67,7 @@\n <div class=\"box\" id=\"2\" style=\"left:2.7909738717%;top:0%;width:97.0902612827%;height:6.1403508772%;\">\n <div class=\"flex items-center\">\n <!-- Logo -->\n-<div class=\"flex items-center ml-4 space-x-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex items-center ml-4 space-x-1\">\n <svg class=\"w-8 h-6\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 90 60\">\n <rect fill=\"#FF0000\" height=\"60\" rx=\"12\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"90\"></rect>\n <polygon fill=\"#fff\" points=\"36,18 60,30 36,42\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>"
+  },
+  {
+    "file": "0026.html",
+    "caption": "Elements: 26/108",
+    "diff": "--- \n+++ \n@@ -68,7 +68,7 @@\n <div class=\"flex items-center\">\n <!-- Logo -->\n <div class=\"flex items-center ml-4 space-x-1\">\n-<svg class=\"w-8 h-6\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 90 60\">\n+<svg class=\"w-8 h-6\" viewbox=\"0 0 90 60\">\n <rect fill=\"#FF0000\" height=\"60\" rx=\"12\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"90\"></rect>\n <polygon fill=\"#fff\" points=\"36,18 60,30 36,42\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>"
+  },
+  {
+    "file": "0027.html",
+    "caption": "Elements: 27/108",
+    "diff": "--- \n+++ \n@@ -69,7 +69,7 @@\n <!-- Logo -->\n <div class=\"flex items-center ml-4 space-x-1\">\n <svg class=\"w-8 h-6\" viewbox=\"0 0 90 60\">\n-<rect fill=\"#FF0000\" height=\"60\" rx=\"12\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"90\"></rect>\n+<rect fill=\"#FF0000\" height=\"60\" rx=\"12\" width=\"90\"></rect>\n <polygon fill=\"#fff\" points=\"36,18 60,30 36,42\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n </svg>\n <span class=\"text-xl font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">YouTube</span>"
+  },
+  {
+    "file": "0028.html",
+    "caption": "Elements: 28/108",
+    "diff": "--- \n+++ \n@@ -70,7 +70,7 @@\n <div class=\"flex items-center ml-4 space-x-1\">\n <svg class=\"w-8 h-6\" viewbox=\"0 0 90 60\">\n <rect fill=\"#FF0000\" height=\"60\" rx=\"12\" width=\"90\"></rect>\n-<polygon fill=\"#fff\" points=\"36,18 60,30 36,42\" style=\"opacity:0;transition:opacity .35s ease-out;\"></polygon>\n+<polygon fill=\"#fff\" points=\"36,18 60,30 36,42\"></polygon>\n </svg>\n <span class=\"text-xl font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">YouTube</span>\n <span class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">HK</span>"
+  },
+  {
+    "file": "0029.html",
+    "caption": "Elements: 29/108",
+    "diff": "--- \n+++ \n@@ -72,7 +72,7 @@\n <rect fill=\"#FF0000\" height=\"60\" rx=\"12\" width=\"90\"></rect>\n <polygon fill=\"#fff\" points=\"36,18 60,30 36,42\"></polygon>\n </svg>\n-<span class=\"text-xl font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">YouTube</span>\n+<span class=\"text-xl font-bold\">YouTube</span>\n <span class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">HK</span>\n </div>\n <!-- 搜索 -->"
+  },
+  {
+    "file": "0030.html",
+    "caption": "Elements: 30/108",
+    "diff": "--- \n+++ \n@@ -73,7 +73,7 @@\n <polygon fill=\"#fff\" points=\"36,18 60,30 36,42\"></polygon>\n </svg>\n <span class=\"text-xl font-bold\">YouTube</span>\n-<span class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">HK</span>\n+<span class=\"text-sm font-medium\">HK</span>\n </div>\n <!-- 搜索 -->\n <div class=\"flex items-center mx-10 flex-grow\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0031.html",
+    "caption": "Elements: 31/108",
+    "diff": "--- \n+++ \n@@ -76,7 +76,7 @@\n <span class=\"text-sm font-medium\">HK</span>\n </div>\n <!-- 搜索 -->\n-<div class=\"flex items-center mx-10 flex-grow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex items-center mx-10 flex-grow\">\n <input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" style=\"opacity:0;transition:opacity .35s ease-out;\" type=\"text\"/>\n <button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">"
+  },
+  {
+    "file": "0032.html",
+    "caption": "Elements: 32/108",
+    "diff": "--- \n+++ \n@@ -77,7 +77,7 @@\n </div>\n <!-- 搜索 -->\n <div class=\"flex items-center mx-10 flex-grow\">\n-<input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" style=\"opacity:0;transition:opacity .35s ease-out;\" type=\"text\"/>\n+<input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" type=\"text\"/>\n <button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0033.html",
+    "caption": "Elements: 33/108",
+    "diff": "--- \n+++ \n@@ -78,7 +78,7 @@\n <!-- 搜索 -->\n <div class=\"flex items-center mx-10 flex-grow\">\n <input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" type=\"text\"/>\n-<button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0034.html",
+    "caption": "Elements: 34/108",
+    "diff": "--- \n+++ \n@@ -79,7 +79,7 @@\n <div class=\"flex items-center mx-10 flex-grow\">\n <input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" type=\"text\"/>\n <button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\">\n-<svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n <path d=\"M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n </button>"
+  },
+  {
+    "file": "0035.html",
+    "caption": "Elements: 35/108",
+    "diff": "--- \n+++ \n@@ -80,7 +80,7 @@\n <input class=\"border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full\" placeholder=\"搜索\" type=\"text\"/>\n <button class=\"border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n-<path d=\"M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z\"></path>\n </svg>\n </button>\n <!-- 语音搜索 -->"
+  },
+  {
+    "file": "0036.html",
+    "caption": "Elements: 36/108",
+    "diff": "--- \n+++ \n@@ -84,7 +84,7 @@\n </svg>\n </button>\n <!-- 语音搜索 -->\n-<button class=\"ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<button class=\"ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0037.html",
+    "caption": "Elements: 37/108",
+    "diff": "--- \n+++ \n@@ -85,7 +85,7 @@\n </button>\n <!-- 语音搜索 -->\n <button class=\"ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1\">\n-<svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0038.html",
+    "caption": "Elements: 38/108",
+    "diff": "--- \n+++ \n@@ -86,7 +86,7 @@\n <!-- 语音搜索 -->\n <button class=\"ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\"></path>\n <path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M8 21h8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0039.html",
+    "caption": "Elements: 39/108",
+    "diff": "--- \n+++ \n@@ -87,7 +87,7 @@\n <button class=\"ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1\">\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\"></path>\n-<path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n <path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M8 21h8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0040.html",
+    "caption": "Elements: 40/108",
+    "diff": "--- \n+++ \n@@ -88,7 +88,7 @@\n <svg class=\"w-5 h-5 text-gray-700\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\"></path>\n <path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n-<path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n <path d=\"M8 21h8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n </button>"
+  },
+  {
+    "file": "0041.html",
+    "caption": "Elements: 41/108",
+    "diff": "--- \n+++ \n@@ -89,7 +89,7 @@\n <path d=\"M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z\"></path>\n <path d=\"M5 10a7 7 0 0014 0\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n <path d=\"M12 17v4\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n-<path d=\"M8 21h8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M8 21h8\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"></path>\n </svg>\n </button>\n </div>"
+  },
+  {
+    "file": "0042.html",
+    "caption": "Elements: 42/108",
+    "diff": "--- \n+++ \n@@ -94,7 +94,7 @@\n </button>\n </div>\n <!-- 创建 / 通知 / 头像 -->\n-<div class=\"flex items-center mr-4 space-x-4\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex items-center mr-4 space-x-4\">\n <!-- 创建(摄像机 +) -->\n <button class=\"rounded-full p-2 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <svg class=\"h-6 w-6\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">"
+  },
+  {
+    "file": "0043.html",
+    "caption": "Elements: 43/108",
+    "diff": "--- \n+++ \n@@ -96,7 +96,7 @@\n <!-- 创建 / 通知 / 头像 -->\n <div class=\"flex items-center mr-4 space-x-4\">\n <!-- 创建(摄像机 +) -->\n-<button class=\"rounded-full p-2 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <rect fill=\"#fff\" height=\"6\" rx=\"1\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"6\" x=\"9\" y=\"9\"></rect>"
+  },
+  {
+    "file": "0044.html",
+    "caption": "Elements: 44/108",
+    "diff": "--- \n+++ \n@@ -97,7 +97,7 @@\n <div class=\"flex items-center mr-4 space-x-4\">\n <!-- 创建(摄像机 +) -->\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n-<svg class=\"h-6 w-6\" fill=\"currentColor\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"h-6 w-6\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <rect fill=\"#fff\" height=\"6\" rx=\"1\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"6\" x=\"9\" y=\"9\"></rect>\n <path d=\"M12 10v4M10 12h4\" stroke=\"#FF0000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0045.html",
+    "caption": "Elements: 45/108",
+    "diff": "--- \n+++ \n@@ -98,7 +98,7 @@\n <!-- 创建(摄像机 +) -->\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n-<path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\"></path>\n <rect fill=\"#fff\" height=\"6\" rx=\"1\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"6\" x=\"9\" y=\"9\"></rect>\n <path d=\"M12 10v4M10 12h4\" stroke=\"#FF0000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0046.html",
+    "caption": "Elements: 46/108",
+    "diff": "--- \n+++ \n@@ -99,7 +99,7 @@\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\"></path>\n-<rect fill=\"#fff\" height=\"6\" rx=\"1\" style=\"opacity:0;transition:opacity .35s ease-out;\" width=\"6\" x=\"9\" y=\"9\"></rect>\n+<rect fill=\"#fff\" height=\"6\" rx=\"1\" width=\"6\" x=\"9\" y=\"9\"></rect>\n <path d=\"M12 10v4M10 12h4\" stroke=\"#FF0000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n </button>"
+  },
+  {
+    "file": "0047.html",
+    "caption": "Elements: 47/108",
+    "diff": "--- \n+++ \n@@ -100,7 +100,7 @@\n <svg class=\"h-6 w-6\" fill=\"currentColor\" viewbox=\"0 0 24 24\">\n <path d=\"M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z\"></path>\n <rect fill=\"#fff\" height=\"6\" rx=\"1\" width=\"6\" x=\"9\" y=\"9\"></rect>\n-<path d=\"M12 10v4M10 12h4\" stroke=\"#FF0000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.2\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M12 10v4M10 12h4\" stroke=\"#FF0000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.2\"></path>\n </svg>\n </button>\n <!-- 通知铃铛 -->"
+  },
+  {
+    "file": "0048.html",
+    "caption": "Elements: 48/108",
+    "diff": "--- \n+++ \n@@ -104,7 +104,7 @@\n </svg>\n </button>\n <!-- 通知铃铛 -->\n-<button class=\"rounded-full p-2 hover:bg-gray-100\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n <path d=\"M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M12 22a2 2 0 002-2H10a2 2 0 002 2z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>"
+  },
+  {
+    "file": "0049.html",
+    "caption": "Elements: 49/108",
+    "diff": "--- \n+++ \n@@ -105,7 +105,7 @@\n </button>\n <!-- 通知铃铛 -->\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n-<svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" style=\"opacity:0;transition:opacity .35s ease-out;\" viewbox=\"0 0 24 24\">\n+<svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n <path d=\"M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n <path d=\"M12 22a2 2 0 002-2H10a2 2 0 002 2z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>"
+  },
+  {
+    "file": "0050.html",
+    "caption": "Elements: 50/108",
+    "diff": "--- \n+++ \n@@ -106,7 +106,7 @@\n <!-- 通知铃铛 -->\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n-<path d=\"M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5\"></path>\n <path d=\"M12 22a2 2 0 002-2H10a2 2 0 002 2z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n </svg>\n </button>"
+  },
+  {
+    "file": "0051.html",
+    "caption": "Elements: 51/108",
+    "diff": "--- \n+++ \n@@ -107,7 +107,7 @@\n <button class=\"rounded-full p-2 hover:bg-gray-100\">\n <svg class=\"h-6 w-6\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\">\n <path d=\"M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5\"></path>\n-<path d=\"M12 22a2 2 0 002-2H10a2 2 0 002 2z\" style=\"opacity:0;transition:opacity .35s ease-out;\"></path>\n+<path d=\"M12 22a2 2 0 002-2H10a2 2 0 002 2z\"></path>\n </svg>\n </button>\n <!-- 头像 -->"
+  },
+  {
+    "file": "0052.html",
+    "caption": "Elements: 52/108",
+    "diff": "--- \n+++ \n@@ -111,7 +111,7 @@\n </svg>\n </button>\n <!-- 头像 -->\n-<div class=\"bg-green-700 text-white rounded-full w-6 h-6 flex items-center justify-center\" style=\"opacity:0;transition:opacity .35s ease-out;\">Y</div>\n+<div class=\"bg-green-700 text-white rounded-full w-6 h-6 flex items-center justify-center\">Y</div>\n </div>\n </div>\n </div>"
+  },
+  {
+    "file": "0053.html",
+    "caption": "Elements: 53/108",
+    "diff": "--- \n+++ \n@@ -116,7 +116,7 @@\n </div>\n </div>\n <div class=\"box\" id=\"3\" style=\"left:3.7909738717%;top:5.3742690058%;width:97.0902612827%;height:5.1520467836%;\">\n-<div class=\"flex items-center space-x-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex items-center space-x-2\">\n <span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">全部</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">播客</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">游戏</span>"
+  },
+  {
+    "file": "0054.html",
+    "caption": "Elements: 54/108",
+    "diff": "--- \n+++ \n@@ -117,7 +117,7 @@\n </div>\n <div class=\"box\" id=\"3\" style=\"left:3.7909738717%;top:5.3742690058%;width:97.0902612827%;height:5.1520467836%;\">\n <div class=\"flex items-center space-x-2\">\n-<span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">全部</span>\n+<span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\">全部</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">播客</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">游戏</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">直播</span>"
+  },
+  {
+    "file": "0055.html",
+    "caption": "Elements: 55/108",
+    "diff": "--- \n+++ \n@@ -118,7 +118,7 @@\n <div class=\"box\" id=\"3\" style=\"left:3.7909738717%;top:5.3742690058%;width:97.0902612827%;height:5.1520467836%;\">\n <div class=\"flex items-center space-x-2\">\n <span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\">全部</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">播客</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">播客</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">游戏</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">直播</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">数学</span>"
+  },
+  {
+    "file": "0056.html",
+    "caption": "Elements: 56/108",
+    "diff": "--- \n+++ \n@@ -119,7 +119,7 @@\n <div class=\"flex items-center space-x-2\">\n <span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\">全部</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">播客</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">游戏</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">游戏</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">直播</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">数学</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">篮球</span>"
+  },
+  {
+    "file": "0057.html",
+    "caption": "Elements: 57/108",
+    "diff": "--- \n+++ \n@@ -120,7 +120,7 @@\n <span class=\"bg-black text-white rounded-md px-3 py-2 font-medium\">全部</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">播客</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">游戏</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">直播</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">直播</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">数学</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">篮球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">足球</span>"
+  },
+  {
+    "file": "0058.html",
+    "caption": "Elements: 58/108",
+    "diff": "--- \n+++ \n@@ -121,7 +121,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">播客</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">游戏</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">直播</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">数学</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">数学</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">篮球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">足球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">动画</span>"
+  },
+  {
+    "file": "0059.html",
+    "caption": "Elements: 59/108",
+    "diff": "--- \n+++ \n@@ -122,7 +122,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">游戏</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">直播</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">数学</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">篮球</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">篮球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">足球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">动画</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">最近上传</span>"
+  },
+  {
+    "file": "0060.html",
+    "caption": "Elements: 60/108",
+    "diff": "--- \n+++ \n@@ -123,7 +123,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">直播</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">数学</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">篮球</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">足球</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">足球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">动画</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">最近上传</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">发现新视频</span>"
+  },
+  {
+    "file": "0061.html",
+    "caption": "Elements: 61/108",
+    "diff": "--- \n+++ \n@@ -124,7 +124,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">数学</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">篮球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">足球</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">动画</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">动画</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">最近上传</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">发现新视频</span>\n </div>"
+  },
+  {
+    "file": "0062.html",
+    "caption": "Elements: 62/108",
+    "diff": "--- \n+++ \n@@ -125,7 +125,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">篮球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">足球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">动画</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">最近上传</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">最近上传</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">发现新视频</span>\n </div>\n </div>"
+  },
+  {
+    "file": "0063.html",
+    "caption": "Elements: 63/108",
+    "diff": "--- \n+++ \n@@ -126,7 +126,7 @@\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">足球</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">动画</span>\n <span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">最近上传</span>\n-<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">发现新视频</span>\n+<span class=\"bg-gray-100 text-black rounded-md px-3 py-2 font-medium\">发现新视频</span>\n </div>\n </div>\n <div class=\"box\" id=\"4\" style=\"left: 3.7909738717339665%; top: 10.584795321637428%; width: 97.09026128266032%; height: 89.18128654970761%;\">"
+  },
+  {
+    "file": "0064.html",
+    "caption": "Elements: 64/108",
+    "diff": "--- \n+++ \n@@ -130,7 +130,7 @@\n </div>\n </div>\n <div class=\"box\" id=\"4\" style=\"left: 3.7909738717339665%; top: 10.584795321637428%; width: 97.09026128266032%; height: 89.18128654970761%;\">\n-<div class=\"grid grid-cols-3 gap-4\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"grid grid-cols-3 gap-4\">\n <div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0065.html",
+    "caption": "Elements: 65/108",
+    "diff": "--- \n+++ \n@@ -131,7 +131,7 @@\n </div>\n <div class=\"box\" id=\"4\" style=\"left: 3.7909738717339665%; top: 10.584795321637428%; width: 97.09026128266032%; height: 89.18128654970761%;\">\n <div class=\"grid grid-cols-3 gap-4\">\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0066.html",
+    "caption": "Elements: 66/108",
+    "diff": "--- \n+++ \n@@ -132,7 +132,7 @@\n <div class=\"box\" id=\"4\" style=\"left: 3.7909738717339665%; top: 10.584795321637428%; width: 97.09026128266032%; height: 89.18128654970761%;\">\n <div class=\"grid grid-cols-3 gap-4\">\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0067.html",
+    "caption": "Elements: 67/108",
+    "diff": "--- \n+++ \n@@ -133,7 +133,7 @@\n <div class=\"grid grid-cols-3 gap-4\">\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0068.html",
+    "caption": "Elements: 68/108",
+    "diff": "--- \n+++ \n@@ -134,7 +134,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0069.html",
+    "caption": "Elements: 69/108",
+    "diff": "--- \n+++ \n@@ -136,7 +136,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          The Key Equation Behind Probability\n         </h3>"
+  },
+  {
+    "file": "0070.html",
+    "caption": "Elements: 70/108",
+    "diff": "--- \n+++ \n@@ -137,7 +137,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          The Key Equation Behind Probability\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0071.html",
+    "caption": "Elements: 71/108",
+    "diff": "--- \n+++ \n@@ -140,7 +140,7 @@\n <h3 class=\"text-sm font-medium\">\n          The Key Equation Behind Probability\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          Artem Kirsanov\n          <span class=\"font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n           ✔"
+  },
+  {
+    "file": "0072.html",
+    "caption": "Elements: 72/108",
+    "diff": "--- \n+++ \n@@ -142,7 +142,7 @@\n         </h3>\n <p class=\"text-xs text-gray-500\">\n          Artem Kirsanov\n-         <span class=\"font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+         <span class=\"font-bold\">\n           ✔\n          </span>\n          • 27万次观看 • 10个月前"
+  },
+  {
+    "file": "0073.html",
+    "caption": "Elements: 73/108",
+    "diff": "--- \n+++ \n@@ -150,7 +150,7 @@\n </div>\n </div>\n </div>\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0074.html",
+    "caption": "Elements: 74/108",
+    "diff": "--- \n+++ \n@@ -151,7 +151,7 @@\n </div>\n </div>\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0075.html",
+    "caption": "Elements: 75/108",
+    "diff": "--- \n+++ \n@@ -152,7 +152,7 @@\n </div>\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0076.html",
+    "caption": "Elements: 76/108",
+    "diff": "--- \n+++ \n@@ -153,7 +153,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0077.html",
+    "caption": "Elements: 77/108",
+    "diff": "--- \n+++ \n@@ -155,7 +155,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          Statistical mechanics of extensive-width shallow neural networks near interpolation\n         </h3>"
+  },
+  {
+    "file": "0078.html",
+    "caption": "Elements: 78/108",
+    "diff": "--- \n+++ \n@@ -156,7 +156,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          Statistical mechanics of extensive-width shallow neural networks near interpolation\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0079.html",
+    "caption": "Elements: 79/108",
+    "diff": "--- \n+++ \n@@ -159,7 +159,7 @@\n <h3 class=\"text-sm font-medium\">\n          Statistical mechanics of extensive-width shallow neural networks near interpolation\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          ICTP Quantitative Life Sciences • 48次观看 • 22小时前\n         </p>\n </div>"
+  },
+  {
+    "file": "0080.html",
+    "caption": "Elements: 80/108",
+    "diff": "--- \n+++ \n@@ -165,7 +165,7 @@\n </div>\n </div>\n </div>\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0081.html",
+    "caption": "Elements: 81/108",
+    "diff": "--- \n+++ \n@@ -166,7 +166,7 @@\n </div>\n </div>\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0082.html",
+    "caption": "Elements: 82/108",
+    "diff": "--- \n+++ \n@@ -167,7 +167,7 @@\n </div>\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0083.html",
+    "caption": "Elements: 83/108",
+    "diff": "--- \n+++ \n@@ -168,7 +168,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0084.html",
+    "caption": "Elements: 84/108",
+    "diff": "--- \n+++ \n@@ -170,7 +170,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          Wall Street Quant interview be likes | 華爾街量化交易面試 (中英文字幕)\n         </h3>"
+  },
+  {
+    "file": "0085.html",
+    "caption": "Elements: 85/108",
+    "diff": "--- \n+++ \n@@ -171,7 +171,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          Wall Street Quant interview be likes | 華爾街量化交易面試 (中英文字幕)\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0086.html",
+    "caption": "Elements: 86/108",
+    "diff": "--- \n+++ \n@@ -174,7 +174,7 @@\n <h3 class=\"text-sm font-medium\">\n          Wall Street Quant interview be likes | 華爾街量化交易面試 (中英文字幕)\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          Hsi-Wei • 9.3万次观看 • 1个月前\n         </p>\n </div>"
+  },
+  {
+    "file": "0087.html",
+    "caption": "Elements: 87/108",
+    "diff": "--- \n+++ \n@@ -180,7 +180,7 @@\n </div>\n </div>\n </div>\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0088.html",
+    "caption": "Elements: 88/108",
+    "diff": "--- \n+++ \n@@ -181,7 +181,7 @@\n </div>\n </div>\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0089.html",
+    "caption": "Elements: 89/108",
+    "diff": "--- \n+++ \n@@ -182,7 +182,7 @@\n </div>\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0090.html",
+    "caption": "Elements: 90/108",
+    "diff": "--- \n+++ \n@@ -183,7 +183,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0091.html",
+    "caption": "Elements: 91/108",
+    "diff": "--- \n+++ \n@@ -185,7 +185,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          EVE Online: 加入我们，开启宇宙之旅\n         </h3>"
+  },
+  {
+    "file": "0092.html",
+    "caption": "Elements: 92/108",
+    "diff": "--- \n+++ \n@@ -186,7 +186,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          EVE Online: 加入我们，开启宇宙之旅\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0093.html",
+    "caption": "Elements: 93/108",
+    "diff": "--- \n+++ \n@@ -189,7 +189,7 @@\n <h3 class=\"text-sm font-medium\">\n          EVE Online: 加入我们，开启宇宙之旅\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          赞助厂商广告 · EVE Online\n         </p>\n </div>"
+  },
+  {
+    "file": "0094.html",
+    "caption": "Elements: 94/108",
+    "diff": "--- \n+++ \n@@ -195,7 +195,7 @@\n </div>\n </div>\n </div>\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0095.html",
+    "caption": "Elements: 95/108",
+    "diff": "--- \n+++ \n@@ -196,7 +196,7 @@\n </div>\n </div>\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0096.html",
+    "caption": "Elements: 96/108",
+    "diff": "--- \n+++ \n@@ -197,7 +197,7 @@\n </div>\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0097.html",
+    "caption": "Elements: 97/108",
+    "diff": "--- \n+++ \n@@ -198,7 +198,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0098.html",
+    "caption": "Elements: 98/108",
+    "diff": "--- \n+++ \n@@ -200,7 +200,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          \"Dopamine Loading\" is the EASIEST way to get ADDICTED to studying\n         </h3>"
+  },
+  {
+    "file": "0099.html",
+    "caption": "Elements: 99/108",
+    "diff": "--- \n+++ \n@@ -201,7 +201,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          \"Dopamine Loading\" is the EASIEST way to get ADDICTED to studying\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0100.html",
+    "caption": "Elements: 100/108",
+    "diff": "--- \n+++ \n@@ -204,7 +204,7 @@\n <h3 class=\"text-sm font-medium\">\n          \"Dopamine Loading\" is the EASIEST way to get ADDICTED to studying\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          Matthew Smith\n         </p>\n </div>"
+  },
+  {
+    "file": "0101.html",
+    "caption": "Elements: 101/108",
+    "diff": "--- \n+++ \n@@ -210,7 +210,7 @@\n </div>\n </div>\n </div>\n-<div class=\"relative bg-white rounded shadow\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0102.html",
+    "caption": "Elements: 102/108",
+    "diff": "--- \n+++ \n@@ -211,7 +211,7 @@\n </div>\n </div>\n <div class=\"relative bg-white rounded shadow\">\n-<div class=\"w-full h-48 bg-gray-400 rounded-t\" style=\"opacity:0;transition:opacity .35s ease-out;\"></div>\n+<div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>"
+  },
+  {
+    "file": "0103.html",
+    "caption": "Elements: 103/108",
+    "diff": "--- \n+++ \n@@ -212,7 +212,7 @@\n </div>\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n-<div class=\"p-2 flex\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0104.html",
+    "caption": "Elements: 104/108",
+    "diff": "--- \n+++ \n@@ -213,7 +213,7 @@\n <div class=\"relative bg-white rounded shadow\">\n <div class=\"w-full h-48 bg-gray-400 rounded-t\"></div>\n <div class=\"p-2 flex\">\n-<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0105.html",
+    "caption": "Elements: 105/108",
+    "diff": "--- \n+++ \n@@ -215,7 +215,7 @@\n <div class=\"p-2 flex\">\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n-<div class=\"flex-1\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<div class=\"flex-1\">\n <h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n          But what is quantum computing? (Grover's Algorithm)\n         </h3>"
+  },
+  {
+    "file": "0106.html",
+    "caption": "Elements: 106/108",
+    "diff": "--- \n+++ \n@@ -216,7 +216,7 @@\n <div class=\"w-6 h-6 bg-gray-400 rounded-full mr-2\">\n </div>\n <div class=\"flex-1\">\n-<h3 class=\"text-sm font-medium\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<h3 class=\"text-sm font-medium\">\n          But what is quantum computing? (Grover's Algorithm)\n         </h3>\n <p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">"
+  },
+  {
+    "file": "0107.html",
+    "caption": "Elements: 107/108",
+    "diff": "--- \n+++ \n@@ -219,7 +219,7 @@\n <h3 class=\"text-sm font-medium\">\n          But what is quantum computing? (Grover's Algorithm)\n         </h3>\n-<p class=\"text-xs text-gray-500\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+<p class=\"text-xs text-gray-500\">\n          3Blue1Brown\n          <span class=\"font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n           ✔"
+  },
+  {
+    "file": "0108.html",
+    "caption": "Elements: 108/108",
+    "diff": "--- \n+++ \n@@ -221,7 +221,7 @@\n         </h3>\n <p class=\"text-xs text-gray-500\">\n          3Blue1Brown\n-         <span class=\"font-bold\" style=\"opacity:0;transition:opacity .35s ease-out;\">\n+         <span class=\"font-bold\">\n           ✔\n          </span>\n </p>"
+  }
+]

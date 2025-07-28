@@ -1,0 +1,70 @@
+{
+  "demos": [
+    {
+      "id": "youtube-interface",
+      "name": "YouTube Interface",
+      "description": "Step-by-step construction process of YouTube homepage interface",
+      "thumbnail": "/assets/demo1.png",
+      "category": "video-platform",
+      "estimatedTime": "20 seconds",
+      "manifest": "/demos/youtube-interface/manifest.json",
+      "steps": 108,
+      "finalHtml": "/demos/youtube-interface/final_youtube.html"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram Profile",
+      "description": "Step-by-step construction demo of Instagram profile page",
+      "thumbnail": "/assets/demo2.png",
+      "category": "social-media",
+      "estimatedTime": "25 seconds",
+      "manifest": "/demos/instagram/manifest.json",
+      "steps": 143,
+      "finalHtml": "/demos/instagram/final_ins.html"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn Profile",
+      "description": "Step-by-step construction demo of LinkedIn profile page",
+      "thumbnail": "/assets/demo4.png",
+      "category": "personal-website",
+      "estimatedTime": "20 seconds",
+      "manifest": "/demos/linkedin/manifest.json",
+      "steps": 112,
+      "finalHtml": "/demos/linkedin/final_linkedin.html"
+    },
+    {
+      "id": "design",
+      "name": "Google Search Design",
+      "description": "Step-by-step construction demo of Google search results page",
+      "thumbnail": "/assets/demo3.png",
+      "category": "design",
+      "estimatedTime": "10 seconds",
+      "manifest": "/demos/design/manifest.json",
+      "steps": 58,
+      "finalHtml": "/demos/design/final_design.html"
+    }
+  ],
+  "categories": [
+    {
+      "id": "video-platform",
+      "name": "Video Platform",
+      "description": "YouTube platform interfaces"
+    },
+    {
+      "id": "social-media",
+      "name": "Social Media",
+      "description": "Instagram, LinkedIn interfaces"
+    },
+    {
+      "id": "personal-website",
+      "name": "Personal Website",
+      "description": "Personal website interfaces"
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "description": "Design interfaces"
+    }
+  ]
+} 

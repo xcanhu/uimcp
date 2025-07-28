@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>
+   Bounding Boxes Layout
+  </title>
+<style>
+   body, html {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .container { 
+                position: relative;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+            }
+            .box {
+                position: absolute;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+            .box > .container {
+                display: grid;
+                width: 100%;
+                height: 100%;
+            }
+  </style>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<div class="box" id="1" style="left: 0.4905395935529082%; top: 0.1770956316410862%; width: 18%; height: 98.99645808736717%;">
+<div class="flex flex-col justify-between h-full p-4 bg-white">
+<!-- 主要导航区域 -->
+<div class="flex flex-col space-y-6">
+<div class="text-3xl font-bold">
+       Instagram
+      </div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M12 2L2 9h3v12h14v-12h3L12 2zm0 14H7v-7h10v7zm0-9H7V6h10v1z">
+</path>
+</svg>
+<span>
+        首页
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-.24-1.02-.37-1.61-.37-1.4 0-2.5.99-2.89 2.34h-3v-2h3c.03-.89.46-1.75 1.23-2.33C11.99 3.5 13.1 3 14.5 3c1.65 0 3 1.35 3 3s-1.35 3-3 3c-.59 0-1.14-.13-1.61-.37a6.5 6.5 0 0 0-1.48 5.34l-.28.27v.79l5 4.99L15.5 14z">
+</path>
+</svg>
+<span>
+        搜索
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-1.96.64-3.78 1.74-5.21L7.4 10.8a7.97 7.97 0 0 1 2.6 0l1.66-1.66C15.36 8.22 16 10.04 16 12c0 4.41-3.59 8-8 8zm0-14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+</path>
+</svg>
+<span>
+        探索
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-1.57.46-3.08 1.28-4.32l1.44 1.44C7.9 12.5 7 14.2 7 16c0 3.31 2.69 6 6 6s6-2.69 6-6c0-1.8-.9-3.5-2.28-4.44l1.44-1.44C19.54 8.92 20 10.43 20 12c0 4.41-3.59 8-8 8zm3-8H9v-2h6v2z">
+</path>
+</svg>
+<span>
+        Reels
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z">
+</path>
+</svg>
+<span>
+        消息
+       </span>
+</div>
+<div class="flex items-center space-x-4 relative">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35zm-2.25-5.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm4.5 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z">
+</path>
+</svg>
+<span>
+        通知
+       </span>
+<span class="absolute top-0 right-[-8px] bg-red-500 text-white text-xs rounded-full h-3 w-3 flex items-center justify-center">
+        •
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z">
+</path>
+</svg>
+<span>
+        创建
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-gray-500" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="4">
+</circle>
+</svg>
+<span>
+        主页
+       </span>
+</div>
+</div>
+<!-- 底部导航区域 -->
+<div class="flex flex-col space-y-4">
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-1.8.6-3.5 1.5-4.9C7.5 6.6 9.2 6 11 6c1.8 0 3.5.6 4.9 1.1 1.3 1.4 2.1 3.1 2.1 4.9 0 4.41-3.59 8-8 8zm0-14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+</path>
+</svg>
+<span>
+        Threads
+       </span>
+</div>
+<div class="flex items-center space-x-4">
+<svg class="w-6 h-6 fill-black" viewbox="0 0 24 24">
+<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+</path>
+</svg>
+<span>
+        更多
+       </span>
+</div>
+</div>
+</div>
+</div>
+<div class="box" id="2" style="left: 25%; top: 0.1770956316410862%; width: 75%; height: 30.047225501770956%;">
+<div class="flex items-center space-x-20 p-3">
+<!-- 头像及渐变环 -->
+<div class="relative">
+<svg class="w-40 h-40" viewbox="0 0 200 200">
+<defs>
+<lineargradient id="avatar-gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#ff28a4">
+</stop>
+<stop offset="100%" stop-color="#ffb646">
+</stop>
+</lineargradient>
+</defs>
+<circle cx="100" cy="100" fill="transparent" r="90" stroke="url(#avatar-gradient)" stroke-width="10">
+</circle>
+</svg>
+<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-36 h-36 bg-gray-400 rounded-full">
+</div>
+</div>
+<!-- 右侧信息区域 -->
+<div class="flex flex-col flex-1">
+<!-- 顶部栏：用户名 + 认证 + 按钮 -->
+<div class="flex items-center space-x-2">
+<h1 class="text-xl font-bold">
+        mirandakerr
+       </h1>
+<!-- 认证徽章 -->
+<svg class="w-5 h-5 text-blue-600" fill="currentColor" viewbox="0 0 20 20">
+<path d="M16.704 3.296a.75.75 0 011.06 1.06l-2.5 2.5a.75.75 0 01-1.06 0l-1.5-1.5a.75.75 0 111.06-1.06l.94.94 2.04-2.04z">
+</path>
+</svg>
+<button class="px-4 py-2 bg-blue-600 text-white rounded font-medium">
+        关注
+       </button>
+<button class="px-4 py-2 bg-gray-200 text-gray-700 rounded font-medium">
+        发消息
+       </button>
+<button class="flex items-center justify-center w-8 h-8 bg-gray-200 rounded">
+<svg class="w-5 h-5 text-gray-700" fill="currentColor" viewbox="0 0 20 20">
+<path d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z">
+</path>
+</svg>
+</button>
+<button class="flex items-center justify-center w-8 h-8 bg-gray-200 rounded">
+<svg class="w-5 h-5 text-gray-700" fill="currentColor" viewbox="0 0 20 20">
+<path d="M5 5a1 1 0 112 0v8a1 1 0 11-2 0V5zm6 0a1 1 0 112 0v8a1 1 0 11-2 0V5z">
+</path>
+</svg>
+</button>
+</div>
+<!-- 统计数据 -->
+<div class="mt-4 flex space-x-6">
+<div>
+<span class="font-bold">
+         3206
+        </span>
+        帖子
+       </div>
+<div>
+<span class="font-bold">
+         1438万
+        </span>
+        粉丝
+       </div>
+<div>
+<span class="font-bold">
+         7496
+        </span>
+        关注
+       </div>
+</div>
+<!-- 名字 -->
+<div class="mt-2 text-lg font-semibold">
+       Miranda Kerr
+      </div>
+<!-- @用户名 -->
+<div class="mt-1 text-gray-600">
+       @mirandakerr
+      </div>
+<!-- 简介 -->
+<div class="mt-1">
+       Founder &amp; CEO of
+       <span class="text-blue-600">
+        @koraorganics
+       </span>
+<svg class="inline w-4 h-4 text-yellow-300" fill="currentColor" viewbox="0 0 20 20">
+<path d="M10 1.25a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 1.25zm0 4.75a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zm0 4.75a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75zm0 4.75a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5a.75.75 0 01.75-.75z">
+</path>
+</svg>
+</div>
+<!-- 链接 -->
+<div class="mt-1 text-blue-600 flex items-center">
+<svg fill="none" height="16" stroke="#1e6fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<!-- 上半段链环 -->
+<path d="M10.59 13.41a3.83 3.83 0 0 1 0-5.41l3.17-3.17a3.83 3.83 0 0 1 5.41 5.41l-1.47 1.47"></path>
+<!-- 下半段链环 -->
+<path d="M13.41 10.59a3.83 3.83 0 0 1 0 5.41l-3.17 3.17a3.83 3.83 0 1 1-5.41-5.41l1.47-1.47"></path>
+</svg>
+       linktr.ee/mirandakerr
+      </div>
+<!-- 关注者提示 -->
+<div class="mt-2 text-gray-600">
+       cristiano关注了
+      </div>
+</div>
+</div>
+</div>
+<div class="box" id="3" style="left: 25%; top: 30.22432113341204%; width: 75%; height: 15.407319952774499%;">
+<div class="flex items-center space-x-4 overflow-x-auto px-4 py-2">
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium">
+       KORA Glow
+      </p>
+</div>
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium">
+       KORA Orga...
+      </p>
+</div>
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium">
+       Events
+      </p>
+</div>
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium">
+       MK Home
+      </p>
+</div>
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium">
+       Self-care
+      </p>
+</div>
+<div class="flex flex-col items-center">
+<svg class="w-20 h-20 rounded-full bg-gray-300" viewbox="0 0 24 24">
+<rect fill="gray" height="24" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium" style="opacity:0;transition:opacity .35s ease-out;">
+       Tutorials
+      </p>
+</div>
+<div class="flex flex-col items-center" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-20 h-20 rounded-full bg-gray-300" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24">
+<rect fill="gray" height="24" style="opacity:0;transition:opacity .35s ease-out;" width="24" x="0" y="0">
+</rect>
+</svg>
+<p class="mt-1 text-sm font-medium" style="opacity:0;transition:opacity .35s ease-out;">
+       Wellness W...
+      </p>
+</div>
+</div>
+</div>
+<div class="box" id="4" style="left: 25%; top: 45.63164108618654%; width: 75%; height: 53.54191263282172%;">
+<div style="opacity:0;transition:opacity .35s ease-out;">
+<div class="flex justify-center border-b" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="flex items-center px-4 py-3 border-b-2 border-black" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+<span style="opacity:0;transition:opacity .35s ease-out;">
+        帖子
+       </span>
+</div>
+<div class="flex items-center px-4 py-3 text-gray-700" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.26c0 .537.213 1.052.555 1.402l3.197 2.132a1 1 0 001.448-1.074l-.448-2.685a2 2 0 012.944-2.143l2.685.448a1 1 0 001.074-1.448l-2.132-3.197a1 1 0 00-1.402-.555l-4.26.213a2 2 0 01-2.143-2.944l.448-2.685a1 1 0 00-1.074-1.448l-2.132 3.197A1 1 0 009.87 10h4.26c.537 0 1.052.213 1.402.555z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+<span style="opacity:0;transition:opacity .35s ease-out;">
+        REELS
+       </span>
+</div>
+<div class="flex items-center px-4 py-3 text-gray-700" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l2 2c.391.391.586.902.586 1.414v5c0 .512-.195 1.024-.586 1.414l-2 2A2.001 2.001 0 0112 19h-5c-.512 0-1.024-.195-1.414-.586L3 16.414V11c0-.512.195-1.024.586-1.414L7 7zm2 4a2 2 0 114 0 2 2 0 01-4 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+<span style="opacity:0;transition:opacity .35s ease-out;">
+        标记内容
+       </span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-2 mt-2" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="relative" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="bg-gray-300 w-full h-96" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="absolute top-2 right-2" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+</div>
+</div>
+<div class="relative" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="bg-gray-300 w-full h-96" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="absolute top-2 right-2" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.26c0 .537.213 1.052.555 1.402l3.197 2.132a1 1 0 001.448-1.074l-.448-2.685a2 2 0 012.944-2.143l2.685.448a1 1 0 001.074-1.448l-2.132-3.197a1 1 0 00-1.402-.555l-4.26.213a2 2 0 01-2.143-2.944l.448-2.685a1 1 0 00-1.074-1.448l-2.132 3.197A1 1 0 009.87 10h4.26c.537 0 1.052.213 1.402.555z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+</div>
+</div>
+<div class="relative" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="bg-gray-300 w-full h-96" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="absolute top-2 right-2" style="opacity:0;transition:opacity .35s ease-out;">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" style="opacity:0;transition:opacity .35s ease-out;" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2zm0 6a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1v-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="opacity:0;transition:opacity .35s ease-out;">
+</path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

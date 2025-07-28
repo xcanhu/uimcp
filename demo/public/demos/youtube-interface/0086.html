@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Bounding Boxes Layout</title>
+<style>
+    body,html{margin:0;padding:0;width:100%;height:100%}
+    .container{position:relative;width:100%;height:100%;box-sizing:border-box}
+    .box{position:absolute;box-sizing:border-box;overflow:hidden}
+    .box>.container{display:grid;width:100%;height:100%}
+    .text-xxs{font-size:10px;line-height:1.2}
+    .text-xxxs{font-size:8px;line-height:1.1}
+    .sidebar-container{padding:8px 2px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;height:100%;overflow:hidden}
+    .sidebar-item{display:flex;flex-direction:column;align-items:center;margin-bottom:16px;width:100%}
+    .sidebar-icon{width:16px;height:16px;flex-shrink:0}
+    .sidebar-text{font-size:6px;margin-top:1px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;line-height:1.0}
+  </style>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<!-- ───────────── 左侧竖栏 ───────────── -->
+<div class="box" id="1" style="left:0.5%;top:0%;width:2.6722%;height:99.7661%;">
+<div class="sidebar-container">
+<!-- 汉堡菜单 -->
+<div class="sidebar-item">
+<svg class="sidebar-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16"></path>
+</svg>
+</div>
+<!-- 首页 -->
+<div class="sidebar-item">
+<svg class="sidebar-icon" fill="currentColor" viewbox="0 0 24 24">
+<path d="M3 10.25L12 3l9 7.25V20a1 1 0 01-1 1h-5a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1V10.25z"></path>
+</svg>
+<span class="sidebar-text">首页</span>
+</div>
+<!-- Shorts -->
+<div class="sidebar-item">
+<!-- 官方 Shorts 轮廓（红色 S 形 + 播放三角） -->
+<svg class="sidebar-icon" fill="currentColor" viewbox="0 0 24 24">
+<path d="M10.11 2.18a1.42 1.42 0 012.02-.54l5.6 3.3a1.42 1.42 0 010 2.45l-1.92 1.14 1.92 1.14a1.42 1.42 0 010 2.45l-5.6 3.3a1.42 1.42 0 01-2.02-.54L8 12l2.11-9.82z"></path>
+<polygon fill="#fff" points="9 8 9 16 15 12"></polygon>
+</svg>
+<span class="sidebar-text">Shorts</span>
+</div>
+<!-- 订阅 -->
+<div class="sidebar-item">
+<svg class="sidebar-icon" fill="currentColor" viewbox="0 0 24 24">
+<rect height="12" rx="2" width="20" x="2" y="6"></rect>
+<polygon fill="#fff" points="10 9 16 12 10 15"></polygon>
+</svg>
+<span class="sidebar-text">订阅</span>
+</div>
+<!-- 我 -->
+<div class="sidebar-item">
+<svg class="sidebar-icon" fill="currentColor" viewbox="0 0 24 24">
+<circle cx="12" cy="8" r="4"></circle>
+<path d="M4 20a8 8 0 0116 0H4z"></path>
+</svg>
+<span class="sidebar-text">我</span>
+</div>
+</div>
+</div>
+<!-- ───────────── 顶部导航 ───────────── -->
+<div class="box" id="2" style="left:2.7909738717%;top:0%;width:97.0902612827%;height:6.1403508772%;">
+<div class="flex items-center">
+<!-- Logo -->
+<div class="flex items-center ml-4 space-x-1">
+<svg class="w-8 h-6" viewbox="0 0 90 60">
+<rect fill="#FF0000" height="60" rx="12" width="90"></rect>
+<polygon fill="#fff" points="36,18 60,30 36,42"></polygon>
+</svg>
+<span class="text-xl font-bold">YouTube</span>
+<span class="text-sm font-medium">HK</span>
+</div>
+<!-- 搜索 -->
+<div class="flex items-center mx-10 flex-grow">
+<input class="border border-gray-300 rounded-l-md px-3 py-1 focus:outline-none w-full" placeholder="搜索" type="text"/>
+<button class="border border-gray-300 border-l-0 rounded-r-md px-4 py-1 bg-gray-50 hover:bg-gray-100">
+<svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M21 21l-5.2-5.2M10.5 18a7.5 7.5 0 110-15 7.5 7.5 0 010 15z"></path>
+</svg>
+</button>
+<!-- 语音搜索 -->
+<button class="ml-3 rounded-full bg-gray-50 hover:bg-gray-100 px-2 py-1">
+<svg class="w-5 h-5 text-gray-700" fill="currentColor" viewbox="0 0 24 24">
+<path d="M12 3a3 3 0 00-3 3v4a3 3 0 006 0V6a3 3 0 00-3-3z"></path>
+<path d="M5 10a7 7 0 0014 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M12 17v4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M8 21h8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<!-- 创建 / 通知 / 头像 -->
+<div class="flex items-center mr-4 space-x-4">
+<!-- 创建(摄像机 +) -->
+<button class="rounded-full p-2 hover:bg-gray-100">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+<path d="M15 10.5l4-2.5v8l-4-2.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V7a1 1 0 011-1h10a1 1 0 011 1v3.5z"></path>
+<rect fill="#fff" height="6" rx="1" width="6" x="9" y="9"></rect>
+<path d="M12 10v4M10 12h4" stroke="#FF0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"></path>
+</svg>
+</button>
+<!-- 通知铃铛 -->
+<button class="rounded-full p-2 hover:bg-gray-100">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24">
+<path d="M15 17h5l-1.403-1.403A2.032 2.032 0 0118 14.159V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.597 1.438L4 17h5"></path>
+<path d="M12 22a2 2 0 002-2H10a2 2 0 002 2z"></path>
+</svg>
+</button>
+<!-- 头像 -->
+<div class="bg-green-700 text-white rounded-full w-6 h-6 flex items-center justify-center">Y</div>
+</div>
+</div>
+</div>
+<div class="box" id="3" style="left:3.7909738717%;top:5.3742690058%;width:97.0902612827%;height:5.1520467836%;">
+<div class="flex items-center space-x-2">
+<span class="bg-black text-white rounded-md px-3 py-2 font-medium">全部</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">播客</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">游戏</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">直播</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">数学</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">篮球</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">足球</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">动画</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">最近上传</span>
+<span class="bg-gray-100 text-black rounded-md px-3 py-2 font-medium">发现新视频</span>
+</div>
+</div>
+<div class="box" id="4" style="left: 3.7909738717339665%; top: 10.584795321637428%; width: 97.09026128266032%; height: 89.18128654970761%;">
+<div class="grid grid-cols-3 gap-4">
+<div class="relative bg-white rounded shadow">
+<div class="w-full h-48 bg-gray-400 rounded-t"></div>
+<div class="p-2 flex">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2">
+</div>
+<div class="flex-1">
+<h3 class="text-sm font-medium">
+         The Key Equation Behind Probability
+        </h3>
+<p class="text-xs text-gray-500">
+         Artem Kirsanov
+         <span class="font-bold">
+          ✔
+         </span>
+         • 27万次观看 • 10个月前
+        </p>
+</div>
+</div>
+</div>
+<div class="relative bg-white rounded shadow">
+<div class="w-full h-48 bg-gray-400 rounded-t"></div>
+<div class="p-2 flex">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2">
+</div>
+<div class="flex-1">
+<h3 class="text-sm font-medium">
+         Statistical mechanics of extensive-width shallow neural networks near interpolation
+        </h3>
+<p class="text-xs text-gray-500">
+         ICTP Quantitative Life Sciences • 48次观看 • 22小时前
+        </p>
+</div>
+</div>
+</div>
+<div class="relative bg-white rounded shadow">
+<div class="w-full h-48 bg-gray-400 rounded-t"></div>
+<div class="p-2 flex">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2">
+</div>
+<div class="flex-1">
+<h3 class="text-sm font-medium">
+         Wall Street Quant interview be likes | 華爾街量化交易面試 (中英文字幕)
+        </h3>
+<p class="text-xs text-gray-500">
+         Hsi-Wei • 9.3万次观看 • 1个月前
+        </p>
+</div>
+</div>
+</div>
+<div class="relative bg-white rounded shadow" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-full h-48 bg-gray-400 rounded-t" style="opacity:0;transition:opacity .35s ease-out;"></div>
+<div class="p-2 flex" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="flex-1" style="opacity:0;transition:opacity .35s ease-out;">
+<h3 class="text-sm font-medium" style="opacity:0;transition:opacity .35s ease-out;">
+         EVE Online: 加入我们，开启宇宙之旅
+        </h3>
+<p class="text-xs text-gray-500" style="opacity:0;transition:opacity .35s ease-out;">
+         赞助厂商广告 · EVE Online
+        </p>
+</div>
+</div>
+</div>
+<div class="relative bg-white rounded shadow" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-full h-48 bg-gray-400 rounded-t" style="opacity:0;transition:opacity .35s ease-out;"></div>
+<div class="p-2 flex" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="flex-1" style="opacity:0;transition:opacity .35s ease-out;">
+<h3 class="text-sm font-medium" style="opacity:0;transition:opacity .35s ease-out;">
+         "Dopamine Loading" is the EASIEST way to get ADDICTED to studying
+        </h3>
+<p class="text-xs text-gray-500" style="opacity:0;transition:opacity .35s ease-out;">
+         Matthew Smith
+        </p>
+</div>
+</div>
+</div>
+<div class="relative bg-white rounded shadow" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-full h-48 bg-gray-400 rounded-t" style="opacity:0;transition:opacity .35s ease-out;"></div>
+<div class="p-2 flex" style="opacity:0;transition:opacity .35s ease-out;">
+<div class="w-6 h-6 bg-gray-400 rounded-full mr-2" style="opacity:0;transition:opacity .35s ease-out;">
+</div>
+<div class="flex-1" style="opacity:0;transition:opacity .35s ease-out;">
+<h3 class="text-sm font-medium" style="opacity:0;transition:opacity .35s ease-out;">
+         But what is quantum computing? (Grover's Algorithm)
+        </h3>
+<p class="text-xs text-gray-500" style="opacity:0;transition:opacity .35s ease-out;">
+         3Blue1Brown
+         <span class="font-bold" style="opacity:0;transition:opacity .35s ease-out;">
+          ✔
+         </span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
