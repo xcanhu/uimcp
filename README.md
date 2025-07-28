@@ -11,6 +11,10 @@ Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>
 <sup>*</sup>Equal contribution  <sup>✉</sup>Corresponding author
 
 </div>
+<div align="center">
+  <img src="teaser.jpg" width="100%"/>
+  
+</div>
 
 ### Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
@@ -85,14 +89,3 @@ The typical workflow is a multi-step process as follows:
     python main.py
     ```
 
-### Demo
-
-To access demo, you can follow these steps:
-
-```bash
-cd demo
-pnpm install 
-pnpm run dev
-```
-
-Then, you can see the demo running.
