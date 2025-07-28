@@ -1,7 +1,16 @@
-# Screencoder
+# ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents
 
-### About
-This is the Screencoder Project. Screencoder generates the HTML code for a website screenshot using a modular multi-agent framework.
+<div align="center">
+
+Yilei Jiang<sup>1*</sup>, Yaozhi Zheng<sup>1*</sup>, Yuxuan Wan<sup>2*</sup>,  
+Jiaming Han<sup>1</sup>, Qunzhong Wang<sup>1</sup>,  
+Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>  
+<br>
+<sup>1</sup>CUHK MMLab, <sup>2</sup>CUHK ARISE Lab  
+<br>
+<sup>*</sup>Equal contribution  <sup>✉</sup>Corresponding author
+
+</div>
 
 ### Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
