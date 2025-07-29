@@ -2,8 +2,7 @@
 
 <div align="center">
 
-Yilei Jiang<sup>1*</sup>, Yaozhi Zheng<sup>1*</sup>, Yuxuan Wan<sup>2*</sup>,  
-Jiaming Han<sup>1</sup>, Qunzhong Wang<sup>1</sup>,  
+Yilei Jiang<sup>1*</sup>, Yaozhi Zheng<sup>1*</sup>, Yuxuan Wan<sup>2*</sup>, Jiaming Han<sup>1</sup>, Qunzhong Wang<sup>1</sup>,  
 Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>  
 <br>
 <sup>1</sup>CUHK MMLab, <sup>2</sup>CUHK ARISE Lab  
@@ -16,7 +15,7 @@ Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>
   
 </div>
 
-# Demo Videos
+## Demo Videos
 
 A showcase of how **ScreenCoder** transforms UI screenshots into structured, editable HTML/CSS code using a modular multi-agent framework.
 
@@ -32,7 +31,7 @@ https://github.com/user-attachments/assets/9819d559-863e-4126-8506-1eccaa806df0
 
 https://github.com/user-attachments/assets/d2f26583-4649-4b6d-8072-b11cd1025f4b
 
-### Project Structure
+## Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
 - `UIED/`: Contains the UIED (UI Element Detection) engine for analyzing screenshots and detecting components.
   - `run_single.py`: Python script to run UI component detection on a single image.
@@ -42,7 +41,7 @@ https://github.com/user-attachments/assets/d2f26583-4649-4b6d-8072-b11cd1025f4b
 - `requirements.txt`: Lists all the necessary Python dependencies for the project.
 - `doubao_api.txt`: API key file for the Doubao model (should be kept private and is included in `.gitignore`).
 
-### Setup and Installation
+## Setup and Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -65,7 +64,7 @@ https://github.com/user-attachments/assets/d2f26583-4649-4b6d-8072-b11cd1025f4b
     - Create a file named `doubao_api.txt` in the root directory.
     - Paste your Doubao API key into this file.
 
-### Usage
+## Usage
 
 The typical workflow is a multi-step process as follows:
 
@@ -105,3 +104,6 @@ The typical workflow is a multi-step process as follows:
     python main.py
     ```
 
+## Acknowledgements
+
+This project builds upon several outstanding open-source efforts. We would like to thank the authors and contributors of the following projects: [UIED](https://github.com/MulongXie/UIED), [DCGen](https://github.com/WebPAI/DCGen), [Design2Code](https://github.com/NoviScl/Design2Code)
