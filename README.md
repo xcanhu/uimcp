@@ -45,6 +45,15 @@ We present qualitative examples to illustrate the improvements achieved by our m
 
 As shown above, our method produces results that are more accurate, visually aligned, and semantically faithful to the original design.
 
+### Demo
+- Try our huggingface demo at [Demo](https://huggingface.co/spaces/Jimmyzheng-10/ScreenCoder)
+
+- Run the demo locally (download from huggingface space):
+
+  ```bash
+  python app.py
+  ```
+
 ## Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
 - `UIED/`: Contains the UIED (UI Element Detection) engine for analyzing screenshots and detecting components.
