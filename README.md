@@ -16,6 +16,22 @@ Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>
   
 </div>
 
+# Demo Videos
+
+A showcase of how **ScreenCoder** transforms UI screenshots into structured, editable HTML/CSS code using a modular multi-agent framework.
+
+### Youtube Page
+
+https://github.com/user-attachments/assets/5d4c0808-76b8-4eb3-b333-79d0ac690189
+
+### Instagram Page
+
+https://github.com/user-attachments/assets/9819d559-863e-4126-8506-1eccaa806df0
+
+### Design Draft（allow customized modifications!）
+
+https://github.com/user-attachments/assets/d2f26583-4649-4b6d-8072-b11cd1025f4b
+
 ### Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
 - `UIED/`: Contains the UIED (UI Element Detection) engine for analyzing screenshots and detecting components.
