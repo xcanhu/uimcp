@@ -31,6 +31,20 @@ https://github.com/user-attachments/assets/9819d559-863e-4126-8506-1eccaa806df0
 
 https://github.com/user-attachments/assets/d2f26583-4649-4b6d-8072-b11cd1025f4b
 
+## Qualitative Comparisons
+
+We present qualitative examples to illustrate the improvements achieved by our method over existing approaches. The examples below compare the output of a baseline method with ours on the same input.
+
+### Baseline or Other Method
+
+![Other Method Output](example_others.jpeg)
+
+### Our Method
+
+![Our Method Output](example_ours.jpeg)
+
+As shown above, our method produces results that are more accurate, visually aligned, and semantically faithful to the original design.
+
 ## Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
 - `UIED/`: Contains the UIED (UI Element Detection) engine for analyzing screenshots and detecting components.
