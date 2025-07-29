@@ -15,6 +15,15 @@ Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>
   
 </div>
 
+## Huggingface Demo
+- Try our huggingface demo at [Demo](https://huggingface.co/spaces/Jimmyzheng-10/ScreenCoder)
+
+- Run the demo locally (download from huggingface space):
+
+  ```bash
+  python app.py
+  ```
+  
 ## Demo Videos
 
 A showcase of how **ScreenCoder** transforms UI screenshots into structured, editable HTML/CSS code using a modular multi-agent framework.
@@ -44,15 +53,6 @@ We present qualitative examples to illustrate the improvements achieved by our m
 ![Our Method Output](example_ours.jpeg)
 
 As shown above, our method produces results that are more accurate, visually aligned, and semantically faithful to the original design.
-
-### Demo
-- Try our huggingface demo at [Demo](https://huggingface.co/spaces/Jimmyzheng-10/ScreenCoder)
-
-- Run the demo locally (download from huggingface space):
-
-  ```bash
-  python app.py
-  ```
 
 ## Project Structure
 - `main.py`: The main script to generate final HTML code for a single screenshot.
