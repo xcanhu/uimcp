@@ -3,25 +3,30 @@ import cv2
 import json
 from utils import Doubao, Qwen, GPT, Gemini, encode_image, image_mask
 
-DEFAULT_IMAGE_PATH = "data/input/test2.png"
+DEFAULT_IMAGE_PATH = "data/input/test1.png"
 DEFAULT_API_PATH = "doubao_api.txt"  # Change the API key path for different models (i.e. doubao, qwen, gpt, gemini).
 
 # We provide prompts in both Chinese and English.
-PROMPT_LIST = [
-    ("header", "Please output the minimum bounding box of the header. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the header."),
-    ("sidebar", "Please output the minimum bounding box of the sidebar. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid meaningless blank space in the sidebar."),
-    ("navigation", "Please output the minimum bounding box of the navigation. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the navigation."),
-    ("main content", "Please output the minimum bounding box of the main content. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the main content."),
-]
 PROMPT_MERGE = "Return the bounding boxes of the sidebar, main content, header, and navigation in this webpage screenshot. Please only return the corresponding bounding boxes. Note: 1. The areas should not overlap; 2. All text information and other content should be framed inside; 3. Try to keep it compact without leaving a lot of blank space; 4. Output a label and the corresponding bounding box for each line."
 # PROMPT_MERGE = "框出网页中的sidebar，main content，header，navigation的位置，请你只返回对应的bounding box，注意：1.各个区域不要重叠；2.所有的文字信息等内容都要框在里面；3.尽量保证紧凑，不留大量空白区域；4.每行输出标签以及对应的bounding box：<bbox>x1 y1 x2 y2</bbox>。"
 BBOX_TAG_START = "<bbox>"
 BBOX_TAG_END = "</bbox>"
 
-# PROMPT_sidebar = "框出网页中的sidebar的位置，请你只返回对应的bounding box。"
-# PROMPT_header = "框出网页中的header的位置，请你只返回对应的bounding box。"
-# PROMPT_navigation = "框出网页中的navigation的位置，请你只返回对应的bounding box。"
-# PROMPT_main_content = "框出网页中的main content的位置，请你只返回对应的bounding box。"
+# Additional option: use sequential_component_detection for block parsing.
+# PROMPT_LIST = [
+#     ("header", "Please output the minimum bounding box of the header. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the header."),
+#     ("sidebar", "Please output the minimum bounding box of the sidebar. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid meaningless blank space in the sidebar."),
+#     ("navigation", "Please output the minimum bounding box of the navigation. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the navigation."),
+#     ("main content", "Please output the minimum bounding box of the main content. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the main content."),
+# ]
+
+# PROMPT_LIST = [
+#     ("header", "请输出header（页眉）的最小外接框。请按照 <bbox>x1 y1 x2 y2</bbox> 的格式输出边界框。请避免header中的空白区域。"),
+#     ("sidebar", "请输出sidebar（侧边栏）的最小外接框。请按照 <bbox>x1 y1 x2 y2</bbox> 的格式输出边界框。请避免sidebar中无意义的空白区域。"),
+#     ("navigation", "请输出navigation（导航栏）的最小外接框。请按照 <bbox>x1 y1 x2 y2</bbox> 的格式输出边界框。请避免navigation中的空白区域。"),
+#     ("main content", "请输出main content（主内容区）的最小外接框。请按照 <bbox>x1 y1 x2 y2</bbox> 的格式输出边界框。请避免main content中的空白区域。"),
+# ]
+
 
 def resolve_containment(bboxes: dict[str, tuple[int, int, int, int]]) -> dict[str, tuple[int, int, int, int]]:
     """
