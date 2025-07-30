@@ -1,4 +1,4 @@
-from utils import encode_image, Doubao, Qwen_2_5_VL
+from utils import encode_image, Doubao, Qwen, GPT, Gemini
 from PIL import Image
 import bs4
 from threading import Thread
@@ -376,9 +376,12 @@ if __name__ == "__main__":
     generate_html(root, 'data/tmp/test2_layout.html')
 
     # Initialize the bot
+    # Change your model & API ket path according to your needs
     bot = Doubao("doubao_api.txt", model = "doubao-1.5-thinking-vision-pro-250428")
-    # bot = Qwen_2_5_VL("qwen_api.txt", model="qwen2.5-vl-72b-instruct")
-
+    # bot = Qwen("qwen_api.txt", model="qwen2.5-vl-72b-instruct")
+    # bot = GPT("gpt_api.txt", model="gpt-4o")
+    # bot = Gemini("gemini_api.txt", model="gemini-1.5-flash-latest")
+    
     # Generate code for each component
     # code_dict = generate_code(root, img_path, bot)
 
