@@ -12,7 +12,8 @@ user_instruction = {
     "main content": ""
 }
 
-# Prompt for each component
+# We provide prompts in both Chinese and English.
+# Chinese prompts for each region
 PROMPT_DICT = {
     "sidebar": f"""这是一个container的截图。这是用户给的额外要求：{user_instruction["sidebar"]}请填写一段完整的HTML和tail-wind CSS代码以准确再现给定的容器。请注意所有组块的排版、图标样式、大小、文字信息需要在用户额外条件的基础上与原始截图基本保持一致。以下是供填写的代码：
 
@@ -47,39 +48,58 @@ PROMPT_DICT = {
     只需返回<div>和</div>标签内的代码"""
 }
 
-# PROMPT_refinement = """Here is a prototype image of a webpage. I have an draft HTML file that contains most of the elements and their correct positions, but it has *inaccurate background*, and some missing or wrong elements. Please compare the draft and the prototype image, then revise the draft implementation. Return a single piece of accurate HTML+tail-wind CSS code to reproduce the website. Use "placeholder.png" to replace the images. Respond with the content of the HTML+tail-wind CSS code. The current implementation I have is: \n\n [CODE]"""
-
-# PROMPT_sidebar = f"""这是一个container的截图。请填写一段完整的HTML和tail-wind CSS代码以准确再现给定的容器。请注意所有组块的排版、图标样式、大小、文字信息需要在用户额外条件的基础上与原始截图基本保持一致。以下是供填写的代码：
-
+# English prompts for each region
+# PROMPT_DICT = {
+#     "sidebar": f"""This is a screenshot of a container. Here is the user's additional instruction: {user_instruction["sidebar"]}
+#     Please fill in a complete HTML and Tailwind CSS code to accurately reproduce the given container.
+#     Please ensure that all block layouts, icon styles, sizes, and text information are consistent with the original screenshot,
+#     based on the user's additional conditions. Below is the code template to fill in:
+    
 #     <div>
 #     your code here
 #     </div>
+    
+#     Only return the code within the <div> and </div> tags.""",
 
-#     只需返回<div>和</div>标签内的代码"""
-
-# PROMPT_header = f"""这是一个container的截图。请填写一段完整的HTML和tail-wind CSS代码以准确再现给定的容器。请注意所有组块在boundary box中的相对位置、排版、文字信息、颜色需要在用户额外条件的基础上与原始截图基本保持一致。以下是供填写的代码：
-
+#     "header": f"""This is a screenshot of a container. Here is the user's additional instruction: {user_instruction["header"]}
+#     Please fill in a complete HTML and Tailwind CSS code to accurately reproduce the given container.
+#     Please ensure that all blocks' relative positions, layout, text information, and colors within the bounding box
+#     are consistent with the original screenshot, based on the user's additional conditions. Below is the code template to fill in:
+    
 #     <div>
 #     your code here
 #     </div>
+    
+#     Only return the code within the <div> and </div> tags.""",
 
-#     只需返回<div>和</div>标签内的代码"""
-
-# PROMPT_navigation = f"""这是一个container的截图。请填写一段完整的HTML和tail-wind CSS代码以准确再现给定的容器。请注意所有组块的在boundary box中的相对位置、文字排版、颜色需要在用户额外条件的基础上与原始截图基本保持一致。请你直接使用原始截图中一致的图标。以下是供填写的代码：
-
+#     "navigation": f"""This is a screenshot of a container. Here is the user's additional instruction: {user_instruction["navigation"]}
+#     Please fill in a complete HTML and Tailwind CSS code to accurately reproduce the given container.
+#     Please ensure that all blocks' relative positions, text layout, and colors within the bounding box
+#     are consistent with the original screenshot, based on the user's additional conditions.
+#     Please use the same icons as in the original screenshot. Below is the code template to fill in:
+    
 #     <div>
 #     your code here
 #     </div>
+    
+#     Only return the code within the <div> and </div> tags.""",
 
-#     只需返回<div>和</div>标签内的代码"""
-
-# PROMPT_main_content = f"""这是一个container的截图。请填写一段完整的HTML和tail-wind CSS代码以准确再现给定的容器。截图中显示的图像务必全部用与原始截图中对应图像同样大小的纯灰色图像块替换，不需要识别图像中的文字信息。请注意所有组块在boundary box中的相对位置、排版、文字信息、颜色需要在用户额外条件的基础上与原始截图基本保持一致。以下是供填写的代码：
-
+#     "main content": f"""This is a screenshot of a container. Here is the user's additional instruction: {user_instruction["main content"]}
+#     Please fill in a complete HTML and Tailwind CSS code to accurately reproduce the given container.
+#     Please replace the images in the original screenshot with solid gray blocks of the same size;
+#     text inside the images does not need to be recognized.
+#     Please ensure that all blocks' relative positions, layout, text information, and colors within the bounding box
+#     are consistent with the original screenshot, based on the user's additional conditions. Below is the code template to fill in:
+    
 #     <div>
 #     your code here
 #     </div>
+    
+#     Only return the code within the <div> and </div> tags."""
+# }
 
-#     只需返回<div>和</div>标签内的代码"""
+# Support refining the generated code.
+# PROMPT_refinement = """Here is a prototype image of a webpage. I have an draft HTML file that contains most of the elements and their correct positions, but it has *inaccurate background*, and some missing or wrong elements. Please compare the draft and the prototype image, then revise the draft implementation. Return a single piece of accurate HTML+tail-wind CSS code to reproduce the website. Respond with the content of the HTML+tail-wind CSS code. The current implementation I have is: \n\n [CODE]"""
 
 # Generate code for each component
 def generate_code(bbox_tree, img_path, bot):
@@ -333,10 +353,10 @@ if __name__ == "__main__":
     from PIL import Image
     
     # Load bboxes from block_parsing.py output
-    boxes_data = json.load(open("data/tmp/test2_bboxes.json"))
+    boxes_data = json.load(open("data/tmp/test1_bboxes.json"))
 
 
-    img_path = "data/input/test2.png"
+    img_path = "data/input/test1.png"
     with Image.open(img_path) as img:
         width, height = img.size
     
@@ -373,7 +393,7 @@ if __name__ == "__main__":
 
     # print(root)
     # Generate initial HTML layout
-    generate_html(root, 'data/tmp/test2_layout.html')
+    generate_html(root, 'data/tmp/test1_layout.html')
 
     # Initialize the bot
     # Change your model & API ket path according to your needs
@@ -388,7 +408,7 @@ if __name__ == "__main__":
     code_dict = generate_code_parallel(root, img_path, bot)
     
     # Substitute the generated code into the HTML
-    code_substitution('data/tmp/test2_layout.html', code_dict)
+    code_substitution('data/tmp/test1_layout.html', code_dict)
 
     # Refine the html file
     # html_refinement('data/tmp/test1_layout.html', 'data/tmp/test1_layout_refined.html', img_path, bot)
