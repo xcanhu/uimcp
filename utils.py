@@ -267,7 +267,7 @@ class Doubao(Bot):
             # img.show()
         return response
 
-class Qwen_2_5_VL(Bot):
+class Qwen(Bot):
     def __init__(self, key_path, patience=3, model="qwen2.5-vl-32b-instruct") -> None:
         super().__init__(key_path, patience)
         self.client = OpenAI(api_key=self.key, base_url="https://dashscope.aliyuncs.com/compatible-mode/v1")
@@ -306,7 +306,7 @@ class Qwen_2_5_VL(Bot):
             print("seed used: 42")
         return response
 
-class GPT4(Bot):
+class GPT(Bot):
     def __init__(self, key_path, patience=3, model="gpt-4o") -> None:
         super().__init__(key_path, patience)
         self.client = OpenAI(api_key=self.key)
