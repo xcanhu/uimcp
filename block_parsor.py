@@ -5,6 +5,8 @@ from utils import Doubao, Qwen, GPT, Gemini, encode_image, image_mask
 
 DEFAULT_IMAGE_PATH = "data/input/test2.png"
 DEFAULT_API_PATH = "doubao_api.txt"  # Change the API key path for different models (i.e. doubao, qwen, gpt, gemini).
+
+# We provide prompts in both Chinese and English.
 PROMPT_LIST = [
     ("header", "Please output the minimum bounding box of the header. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the header."),
     ("sidebar", "Please output the minimum bounding box of the sidebar. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid meaningless blank space in the sidebar."),
