@@ -1,10 +1,10 @@
 import os
 import cv2
 import json
-from utils import Doubao, encode_image, image_mask
+from utils import Doubao, Qwen, GPT, Gemini, encode_image, image_mask
 
 DEFAULT_IMAGE_PATH = "data/input/test2.png"
-DEFAULT_API_PATH = "doubao_api.txt"
+DEFAULT_API_PATH = "doubao_api.txt"  # Change the API key path for different models (i.e. doubao, qwen, gpt, gemini).
 PROMPT_LIST = [
     ("header", "Please output the minimum bounding box of the header. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid the blank space in the header."),
     ("sidebar", "Please output the minimum bounding box of the sidebar. Please output the bounding box in the format of <bbox>x1 y1 x2 y2</bbox>. Avoid meaningless blank space in the sidebar."),
@@ -225,7 +225,7 @@ def save_bboxes_to_json(bboxes: dict[str, tuple[int, int, int, int]], image_path
 #     """
 #     bboxes = {}
 #     current_image_path = image_path
-#     ark_client = Doubao(api_path)
+#     ark_client = Doubao(api_path) # Change your client according to your needs: Qwen(api_path), GPT(api_path), Gemini(api_path)
     
 #     image = cv2.imread(image_path)
 #     if image is None:
@@ -309,7 +309,7 @@ if __name__ == "__main__":
     print("=== Starting Simple Component Detection ===")
     print(f"Input image: {image_path}")
     print(f"API path: {api_path}")
-    client = Doubao(api_path)
+    client = Doubao(api_path) # Change your models according to your needs: Qwen(api_path), GPT(api_path), Gemini(api_path)
     bbox_content = client.ask(PROMPT_MERGE, encode_image(image_path))
     print(f"Model response: {bbox_content}\n")
     bboxes = parse_bboxes(bbox_content, image_path)
