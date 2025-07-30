@@ -68,7 +68,7 @@ As shown above, our method produces results that are more accurate, visually ali
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/JimmyZhengyz/screencoder.git
+    git clone https://github.com/leigest519/ScreenCoder.git
     cd screencoder
     ```
 
