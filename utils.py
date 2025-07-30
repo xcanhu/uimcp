@@ -1,6 +1,7 @@
 import os
 import time
 from openai import OpenAI
+import google.generativeai as genai
 from volcenginesdkarkruntime import Ark
 import base64
 import io
@@ -304,3 +305,78 @@ class Qwen_2_5_VL(Bot):
             print("response:\n", response)
             print("seed used: 42")
         return response
+
+class GPT4(Bot):
+    def __init__(self, key_path, patience=3, model="gpt-4o") -> None:
+        super().__init__(key_path, patience)
+        self.client = OpenAI(api_key=self.key)
+        self.name="gpt4"
+        self.model = model
+        
+    def ask(self, question, image_encoding=None, verbose=False):
+        
+        if image_encoding:
+            content =    {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": question},
+                {
+                "type": "image_url",
+                "image_url": {
+                    "url": f"data:image/png;base64,{image_encoding}",
+                },
+                },
+            ],
+            }
+        else:
+            content = {"role": "user", "content": question}
+        response = self.client.chat.completions.create(
+        model=self.model,
+        messages=[
+         content
+        ],
+        max_tokens=4096,
+        temperature=0,
+        seed=42,
+        )
+        response = response.choices[0].message.content
+        if verbose:
+            print("####################################")
+            print("question:\n", question)
+            print("####################################")
+            print("response:\n", response)
+            print("seed used: 42")
+            # img = base64.b64decode(image_encoding)
+            # img = Image.open(io.BytesIO(img))
+            # img.show()
+        return response
+
+class Gemini(Bot):
+    def __init__(self, key_path, patience=3, model="gemini-1.5-flash-latest") -> None:
+        super().__init__(key_path, patience)
+        GOOGLE_API_KEY= self.key
+        genai.configure(api_key=GOOGLE_API_KEY)
+        self.name = "Gemini"
+        self.model = model
+        self.file_count = 0
+        
+    def ask(self, question, image_encoding=None, verbose=False):
+        model = genai.GenerativeModel(self.model)
+
+        if verbose:
+            print(f"##################{self.file_count}##################")
+            print("question:\n", question)
+
+        if image_encoding:
+            img = base64.b64decode(image_encoding)
+            img = Image.open(io.BytesIO(img))
+            response = model.generate_content([question, img], request_options={"timeout": 3000}) 
+        else:    
+            response = model.generate_content(question, request_options={"timeout": 3000})
+
+        if verbose:
+            print("####################################")
+            print("response:\n", response.text)
+            self.file_count += 1
+
+        return response.text
