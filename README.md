@@ -82,10 +82,9 @@ As shown above, our method produces results that are more accurate, visually ali
     ```bash
     pip install -r requirements.txt
     ```
-
-4.  **Set up API Key:**
-    - Create a file named `doubao_api.txt` in the root directory.
-    - Paste your Doubao API key into this file.
+4. **Configure the model and API key**
+    - ***Choose a generation model***: Set the desired model in `block_parsor.py` and `html_generator.py`. Supported options: Doubao(default), Qwen, GPT, Gemini.
+    - ***Add the API key***: Create a plain-text file (`doubao_api.txt`, `qwen_api.txt`, `gpt_api.txt`, `gemini_api.txt`) in the project root directory that corresponds to your selected model, and paste your API key inside.
 
 ## Usage
 
