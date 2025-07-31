@@ -9,6 +9,18 @@ Michael R. Lyu<sup>2</sup>, Xiangyu Yue<sup>1✉</sup>
 <br>
 <sup>*</sup>Equal contribution  <sup>✉</sup>Corresponding author
 
+<a href="https://arxiv.org/abs/2507.22827">
+    <img
+      src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=red"
+      alt="Paper on arXiv"
+    />
+  </a>
+  <a href="https://huggingface.co/spaces/Jimmyzheng-10/ScreenCoder">
+    <img 
+        src="https://img.shields.io/badge/HF-Demo-yellow?logo=huggingface&logoColor=yellow" 
+        alt="Huggingface Demo"
+    />
+  </a>
 </div>
 <div align="center">
   <img src="teaser.jpg" width="100%"/>
