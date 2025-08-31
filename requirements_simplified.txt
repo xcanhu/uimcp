@@ -1,0 +1,7 @@
+# ScreenCoder MCP Simplified Tool Dependencies
+
+mcp
+opencv-python
+numpy
+Pillow
+beautifulsoup4

@@ -7,6 +7,8 @@ from playwright.async_api import async_playwright
 async def extract_bboxes_from_html(html_path: Path):
     async with async_playwright() as p:
         browser = await p.chromium.launch()
+
+        
         ctx = await browser.new_context(
             viewport={"width": 1280, "height": 720},
         )

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "screencoder": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\xingc\\Desktop\\mcp\\ScreenCoder\\mcp_server_v4_local_path.py"
+      ],
+      "env": {}
+    }
+  }
+}
